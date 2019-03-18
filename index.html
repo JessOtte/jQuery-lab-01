@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Table Reservation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  </head>
+<body>
+<div class="container">
+    <h1>Table Finder</h1>
+    <h2>Pick your table now</h2>
+
+    
+<div class="availableTables">
+
+    <div class="form-popup" id="myform">
+        <form class="form-container">
+          <div id="cancel" value="x">x</div><br>              
+          <h3>New Reservation</h3>
+          <h4>Table Number: <label id="table-number"></label></h4>
+                              
+          <input type="text" placeholder="First Name" name="name" required>
+          <input type="text" placeholder="Phone Number" name="phone" required>
+          <input type="text" placeholder="Number in Party" name="party" required>
+          <input value="Save" id="saveButton">
+          <!-- <input type="reset" value="Table Now Available" id="tableNowAvailable"> -->
+
+        </form>
+      </div>
+  
+    <div class="availableTable">
+        <div class="table" id="table01" value="7">1</div>
+        <div class="table" id="table02" value="8">2</div>
+        <div class="table" id="table03" value="9">3</div>
+    </div>
+    <div class="availableTable">
+        <div class="table" id="table04" value="7">4</div>
+        <div class="table" id="table05" value="8">5</div>
+        <div class="table" id="table06" value="9">6</div>
+    </div>
+    <div class="availableTable">
+        <div class="table" id="table07" value="7">7</div>
+        <div class="table" id="table08" value="8">8</div>
+        <div class="table" id="table09" value="9">9</div>
+    </div>
+</div>
+<p>*Double Click a table to make available</p>
+
+
+
+
+
+
+
+</div>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Note that js that uses jquery must come AFTER jquery -->
+    <script src="main.js"></script>
+</body>
+</html>
