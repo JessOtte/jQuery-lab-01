@@ -37,6 +37,14 @@ $('#saveButton').on('click',function() {
 
 
 });
+$('.reserved').hover(function(){
+    $(this).toggleClass('reserved');
+});
+$('.table').hover(function(){
+    $(this).toggleClass('tableHover');
+});
+
+
 
 
 

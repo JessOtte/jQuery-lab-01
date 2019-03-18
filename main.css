@@ -143,5 +143,17 @@ p {
 .reserved {
   background-color: #ADAAAA;
   color: white;
+  cursor: not-allowed;
 }
+.reserved:hover {
+  background-color: #ADAAAA;
+  color: white;
+  cursor: not-allowed;
+}
+.tableHover {
+  background-color: #008000;
+  color: white;
+  cursor: pointer;
+}
+
 
